@@ -1,0 +1,18 @@
+.container-a {
+    width: 57%;
+    margin: 128px auto;
+    padding: 82px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.titulo-a {
+    margin-top: -22px;
+    color: white;
+    font-size: 30px;
+}
+
+.highlight {
+    color: white;
+    font-size: 25px;
+}

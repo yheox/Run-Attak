@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#contenedor_menu {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  margin-top: 8px;
+
+}
+
+#contenedor_hijo_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 2000px;
+  height: 100%;
+  margin: -39px 10px;
+  padding: 20px 18px;
+  margin-top: -8px;
+
+}
+
+.contenedor_paginas {
+  margin: 0px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+}
+
+.pagina {
+  margin-left: 26px;
+  font-size: 18px;
+  color: gainsboro;
+  font-weight: 500;
+  letter-spacing: 4px;
+  font-family: Khand, sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+  font-family: Khand, sans-serif;
+}
+
+h3 {
+  font-size: 37px;
+  margin-bottom: 0px;
+  padding: 57px 0px;
+  font-family: initial;
+  border-radius: 0px;
+}
+
+
+
+.logui img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 75px;
+  margin-left: 262px;
+}
+
+.product-item p {
+  font-size: 21px; 
+  margin-top: 88px;
+  margin-bottom: 40px; 
+}
+
+
+
+#logo_menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#logo_menu h2 {
+  font-size: 40px;
+  color: white;
+  font-family: Khand, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor_paginas p:hover {
+  color: white;
+  transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width: 1250px) {
+  .contenedor_paginas {
+    position: fixed;
+    top: 49px;
+    right: 15px;
+    text-align: center;
+    padding: 0px;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.4s ease 0s;
+  }
+
+  /*----- ICONO MENU DESPLEGABLE -----*/
+  .icono_menu_desplegable {
+    position: relative;
+    width: 30px;
+    height: 49px;
+    padding: 21px 3px;
+  }
+
+  .desplegable_linea {
+    position: absolute;
+    width: 34px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+  }
+
+  .desplegable_linea_uno {
+    top: 15px;
+  }
+
+  .desplegable_linea_dos {
+    top: 23px;
+  }
+
+  .desplegable_linea_tres {
+    bottom: 15px;
+  }
+
+  .desplegar_menu {
+    padding: 3px;
+    height: 7.1em;
+  }
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* #canvas {
+  position: */
+
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+
+  .container {
+    width: 83%;
+    margin: 107px auto;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    color: #00FF00;
+    text-shadow: 0px 0px 10px #00FF00;
+    margin-bottom: 22px;
+  }
+  
+  .product-info {
+    text-align: center;
+  }
+  
+  .product-info img {
+    width: 36%;
+    max-height: 200px;
+    object-fit: cover;
+    filter: grayscale(100%);
+  }
+  
+  .product-info p {
+    color: white;
+  }
+  
+  button {
+    background-color: #00FF00;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 18px;
+  }
+  
+  button:hover {
+    background-color: #00DD00;
+  }
+  
+  body {
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  h1 {
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    color: #00FF00;
+    text-shadow: 3px 2px 7px #00FF00;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-item {
+    width: 48%;
+    margin-bottom: 46px;
+    padding: 2px;
+    border: 1px solid #00FF00;
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 36%;
+    max-height: 188px;
+    object-fit: cover;
+    margin-top: 18px;
+  }
+  
+  .hacker-style {
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .hacker-button {
+    background-color: #00FF00;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .hacker-button:hover {
+    background-color: #00DD00;
+  }
+  
+  .product-item h3,
+  .product-item p {
+    color: white;
+  }
+  

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Run Attack | Tienda</title>
+  <link rel="stylesheet" href="/stilos/meno-of.css">
+
+  <style>
+    #canvas-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  </style>
+
+</head>
+
+<body>
+
+    <div class="logui"><img src="/fotos/logiño.jpg" alt="logiño"></div>
+
+  <nav>
+    <div id="contenedor_menu">
+      <div id="contenedor_hijo_menu">
+        <div id="contenedor_menu_logo">
+          <div id="logo_menu">
+            <h2>Run Attack</h2>
+          </div>
+        </div>
+        <div class="contenedor_paginas">
+          <a href="/inicio/index.html"><p class="pagina">INICIO</p></a>
+          <a href="#"><p class="pagina">EVENTOS</p></a>
+          <a href="#"><p class="pagina">CONTACTO</p></a>
+        </div>
+        <div class="icono_menu_desplegable">
+          <div class="desplegable_linea desplegable_linea_uno"></div>
+          <div class="desplegable_linea desplegable_linea_dos"></div>
+          <div class="desplegable_linea desplegable_linea_tres"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- productos -->
+    <div class="container">
+      <h1>Catálogo de Productos</h1>
+
+      <div class="product-list">
+
+        <div class="product-item">
+          <img src="/fotos/foto-1.jpg" alt="Producto 1" onclick="redirigirProducto(1)">
+          <h3>Producto 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Agregar al carrito</button>
+        </div>
+
+        <div class="product-item">
+          <img src="/fotos/foto-2.jpg" alt="Producto 2" onclick="redirigirProducto(2)">
+          <h3>Producto 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Agregar al carrito</button>
+        </div>
+
+        <div class="product-item">
+          <img src="/fotos/foto-3.jpg" alt="Producto 3" onclick="redirigirProducto(3)">
+          <h3>Producto 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Agregar al carrito</button>
+        </div>
+
+        <div class="product-item">
+          <img src="/fotos/foto-4.jpg" alt="Producto 4" onclick="redirigirProducto(4)">
+          <h3>Producto 4</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Agregar al carrito</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="canvas-container">
+      <canvas width="777" height="836" id="canvas"></canvas>
+    </div>
+
+  </nav>
+
+  <script src="/scripts/matrix.js"></script>
+  <script src="/scripts/menu.js"></script>
+  <script src="/scripts/script.js"></script>
+
+</body>
+</html>
